@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid navy;
+}
+
+th {
+    background-color: darkgray;
+    color: white;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid navy;
+}
+
+tr:nth-child(odd) {
+    background-color: cadetblue;
+}
+
+#conenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
